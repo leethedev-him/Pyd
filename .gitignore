@@ -4,3 +4,8 @@ venv/
 dist/
 build/
 *.exe
+
+# Sensitive .md files — do not commit
+*.md
+!README.md
+!**/README.md
